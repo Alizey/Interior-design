@@ -1,0 +1,54 @@
+body{
+  padding:0;
+  margin:0;
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: Cursive;
+  font-size: 18px;
+  color:		#606060;
+}
+.sublist{
+ /* font-size:10px;*/
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #d3d3d3;
+  color: black;
+}
+.heading{
+  padding:30px;
+  margin-bottom:20px;
+  font-family: Cursive;
+  margin-top: 1px;
+}
+.first-section{
+  display:inline-block;
+  width:70%;
+  
+  
+  /*float: right;*/
+  height: 600px;
+
+}
+.menubar{
+   display:inline-block;
+   width:30%;
+   height: 600px;
+  /* margin-top:5px;*/
+   float:left;
+   overflow: scroll;
+   
+}
+.image{
+  margin-left:30px;
+
+  
+}
