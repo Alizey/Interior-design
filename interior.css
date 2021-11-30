@@ -28,27 +28,69 @@ li a:hover {
   margin-bottom:20px;
   font-family: Cursive;
   margin-top: 1px;
+  display: inline-block;
 }
 .first-section{
   display:inline-block;
-  width:70%;
-  
-  
-  /*float: right;*/
-  height: 600px;
-
-}
+  width:75%;
+  float: right;
+ }
 .menubar{
    display:inline-block;
-   width:30%;
+   width:25%;
    height: 600px;
   /* margin-top:5px;*/
    float:left;
    overflow: scroll;
+   position:fixed;
    
 }
 .image{
   margin-left:30px;
+  height: 550px;
+}
 
+.search{
+  float: right;
+  margin-right: 40px;
+  
+}
+.cart{
+  padding-right: 20px;
+}
+
+img {
+   height:auto;
+   vertical-align: middle;
+   padding:20px;
+  }
+
+.img1{
+  flex:0.6666;
+  margin-right: 15px;
+  margin-left:28px;
+}
+
+.img2{
+  flex:0.8;
+  margin-right: 17px;
+}
+
+.img3{
+  flex:0.8;
+  margin-right: 17px;
+}
+
+.img4{
+  flex:0.75;
+  margin-right: 17px;
+
+}
+
+.image-container{
+  width:95%;
+  display:flex;
+ /* padding:10px;*/
+  
   
 }
