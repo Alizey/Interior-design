@@ -77,12 +77,36 @@ img {
 }
 
 .img3{
-  flex:0.8;
+  flex:0.6666;
   margin-right: 17px;
 }
 
 .img4{
+  flex:0.6666;
+  margin-right: 17px;
+
+}
+
+.img5{
+  flex:0.6666;
+  margin-right: 17px;
+
+}
+
+.img6{
   flex:0.75;
+  margin-right: 17px;
+
+}
+
+.img7{
+  flex:0.8;
+  margin-right: 17px;
+
+}
+
+.img8{
+  flex:0.666
   margin-right: 17px;
 
 }
