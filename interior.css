@@ -104,3 +104,16 @@ img {
 .image-container-1{
    padding-left:5px;  
 }
+
+@media only screen and (max-width: 600px){
+  .image-container{
+    width:90%;
+    flex-direction: column;
+    height:auto;
+    vertical-align: middle;
+  }
+
+  img{
+    width:50%;
+  }
+}
