@@ -9,10 +9,18 @@
    padding:20px;
 }
 
+.image-container{
+  width:95%;
+  display:flex;
+  height:auto;
+  vertical-align: middle;
+  /*padding:20px;
+  margin-left: 5px;*/
+}
+
+
 .img1{
-  flex:0.6666;
-  margin-right: 15px;
-  margin-left:28px;
+   width:50%;
 }
 
 .img2{
@@ -30,84 +38,77 @@
   margin-right: 17px;
 
 }
-
-.img5{
-  flex:0.6666;
-  margin-right: 17px;
-
+.section{
+  position:relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  margin-left:20px;
 }
 
-.img6{
-  flex:0.8;
-  margin-right: 17px;
+.section:hover .overlay {
+  opacity: 0.7;
 }
-
-.img7{
-  flex:0.6666;
-  margin-right: 17px;
-
-}
-
-.img8{
-  flex:0.6666;
-  margin-right: 17px;
+.text {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  text-align: center;
   
+ 
+  }
 
+  .size{
+	color: black;
+    font-size: 1em;
+    font-weight: bold;
 }
 
-.image-container{
-  width:95%;
-  display:flex;
-  height:auto;
-  vertical-align: middle;
-  /*padding:20px;
-  margin-left: 5px;*/
-}
-
-
-/*.image-container-1{
-   padding-left:5px;  
-}*/
 
 </style>
 <body>
-    <div class="image-container">
-            
-  
-        <div class = "img1 ">
-               <img  src = "image15.jpg" style="width:100%">
-         </div>
-         <div class = "img2 ">
-               <img  src = "image5.jpg" style="width:100% ">
-               
-          </div>
-          <div class = "img3 ">
-               <img  src = "image12.jpg" style="width:100%">
-           </div>   
-        
-           <div class = "img4 ">
-                <img  src = "image16.jpg" style="width:100%">
-         </div>
+  <div class="image-container" >
+      <div class = "img1  section ">
+    <img src = "image8.jpg" style="width:100%">
+    <div class="overlay">
+         <div class="text size">BUY NOW</div>
     </div>
+</div>
 
-    <div class="image-container">
-            
+<div class = "img2 section ">
+  <img  src = "image5.jpg" style="width:100% ">
+  <div class="overlay">
+    <div class="text  size">BUY NOW</div>
+</div>
   
-      <div class = "img1 ">
-             <img  src = "image8.jpg" style="width:100%">
-       </div>
-       <div class = "img2 ">
-             <img  src = "image10.jpg" style="width:100% ">
-             
-        </div>
-        <div class = "img3 ">
-             <img  src = "image14.jpg" style="width:100%">
-         </div>   
-      
-         <div class = "img4 ">
-              <img  src = "image.jpg" style="width:100%">
-       </div>
-  </div>
+</div>
+<div class = "img3 section ">
+  <img  src = "image14.jpg" style="width:100%">
+  <div class="overlay">
+    <div class="text  size">BUY NOW</div>
+</div>
+</div>   
+
+<div class = "img4  section">
+   <img  src = "image16.jpg" style="width:100%">
+   <div class="overlay">
+    <div class="text  size">BUY NOW</div>
+</div>
+</div>
+</div>
+</div>
   
     
 

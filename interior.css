@@ -7,16 +7,14 @@ ul {
 }
 li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  /*color: #000;*/
+ padding: 8px 16px;
   text-decoration: none;
   font-family: Cursive;
   font-size: 18px;
-  color:		#606060;
-}
-.sublist{
- /* font-size:10px;*/
-}
+  color:black;
+ }
+
 
 /* Change the link color on hover */
 li a:hover {
@@ -33,24 +31,36 @@ li a:hover {
 }
 .first-section{
   display:inline-block;
-  width:75%;
+  width:80%;
   float: right;
- 
- 
  }
 .menubar{
-   display:inline-block;
-   width:25%;
+   display:block;
+   width:20%;
    height: 600px;
   /* margin-top:5px;*/
    float:left;
    overflow: scroll;
    position:fixed;
-   
+   }
+.image-position{
+  position:relative;
 }
+
+
 .image{
   margin-left:30px;
   height: 550px;
+  opacity: 0.7
+  }
+
+.text-over-image{
+  position: absolute;
+  left:100px;
+  top:10px;
+  font-family: Cursive; 
+  font-size: 30px;
+  
 }
 
 .search{
@@ -58,6 +68,16 @@ li a:hover {
   margin-right: 40px;
   
 }
+
+.shop{
+  background-color: black;
+  color: white;
+  padding:12px 30px;
+  font-size:18px;
+}
+
+
+
 .cart{
   padding-right: 20px;
 }
@@ -71,7 +91,7 @@ img {
 .img1{
   flex:0.6666;
   margin-right: 15px;
-  margin-left:28px;
+  
 }
 
 .img2{
@@ -105,15 +125,48 @@ img {
    padding-left:5px;  
 }
 
-@media only screen and (max-width: 600px){
-  .image-container{
-    width:90%;
-    flex-direction: column;
-    height:auto;
-    vertical-align: middle;
+
+.section{
+  position:relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  margin-left:20px;
+}
+
+.section:hover .overlay {
+  opacity: 0.7;
+  
+}
+.text {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+ text-align: center;
+ font-size:25px;
+ background-color:	#FFD700;
+ padding:15px 30px;
+ font-weight: bold;
+
   }
 
-  img{
-    width:50%;
-  }
+
+  .size{
+	color: black;
+    font-size: 1em;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  
 }
