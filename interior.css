@@ -33,6 +33,7 @@ li a:hover {
   display:inline-block;
   width:80%;
   float: right;
+  margin-left: 30px;
  }
 .menubar{
    display:block;
@@ -90,45 +91,38 @@ img {
 
 .img1{
   flex:0.6666;
-  margin-right: 15px;
+  margin-right: 10px;
   
 }
 
 .img2{
   flex:0.8;
-  margin-right: 17px;
+  margin-right: 10px;
 }
 
 .img3{
   flex:0.6666;
-  margin-right: 17px;
+  margin-right: 10px;
 }
 
 .img4{
   flex:0.6666;
-  margin-right: 17px;
+  margin-right: 10px;
 
 }
 
-
 .image-container{
-  width:95%;
+  width:91%;
   display:flex;
   height:auto;
   vertical-align: middle;
-  /*padding:20px;
-  margin-left: 5px;*/
+  /*padding:20px;*/
+  margin-left: 30px;
 }
-
-
-.image-container-1{
-   padding-left:5px;  
-}
-
-
 .section{
   position:relative;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -145,6 +139,7 @@ img {
 
 .section:hover .overlay {
   opacity: 0.7;
+  cursor: pointer;
   
 }
 .text {
