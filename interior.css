@@ -10,7 +10,7 @@ li a {
   /*color: #000;*/
  padding: 8px 16px;
   text-decoration: none;
-  font-family: Cursive;
+  font-family: cursive;
   font-size: 18px;
   color:black;
  }
@@ -26,7 +26,7 @@ li a:hover {
   padding:30px;
   padding-left: 50px;
   margin-bottom:20px;
-  font-family: Cursive;
+  font-family: cursive;
   margin-top: 1px;
   display: inline-block;
 }
@@ -168,10 +168,61 @@ img {
   color:white;
   padding:30px 42px;
   font-family: 'Roboto', sans-serif;
-
+  letter-spacing: 1px;
+  height: auto;
+  
+}
+.email{
+  width: 100%;
+  height: 35px;
+  padding:5px;
+  font-size: 17px;
+  
+}
+.button-subscribe{
+  background-color: red;
+  color: white;
+  margin-top:30px;
+  padding:10px 30px;
+  font-size:17px;
 }
 
+.button-subscribe:hover{
+  background-color: #d3d3d3;
+  color:black;
+  cursor: pointer;
+  
+}
 
+.grey-background{
+  background-color:#F0F0F0;
+  font-family: 'Roboto', sans-serif;
+  
+  
+ 
+
+}
+.contact{
+  width:28%;
+  display: inline-block;
+ 
+}
+.contactus{
+  margin-left:30px;
+  width: 100%;
+ padding:10px;
+margin-top:8px;
+ border-color: #d3d3d3;
+}
+.text-alignment{
+  text-align: center;
+}
+
+.shop:hover{
+  background-color: #d3d3d3;
+  color:black;
+  cursor: pointer;
+}
 
 
 @media only screen and (max-width: 600px){
