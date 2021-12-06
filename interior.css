@@ -224,8 +224,16 @@ margin-top:8px;
 
 .aboutus{
   line-height: 120%;
-  font-size: 13px;
+  font-size: 15px;
   color:black;
+}
+
+.about-position{
+  width:20%;
+}
+
+.store{
+  width:30%;
 }
 
 
