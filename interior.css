@@ -198,18 +198,16 @@ img {
   background-color:#F0F0F0;
   font-family: 'Roboto', sans-serif;
   
-  
- 
-
 }
 .contact{
-  width:28%;
+  width:35%;
   display: inline-block;
- 
+  margin-top: 35px;
+  vertical-align: top;
 }
 .contactus{
   margin-left:30px;
-  width: 100%;
+  width: 80%;
  padding:10px;
 margin-top:8px;
  border-color: #d3d3d3;
@@ -222,6 +220,12 @@ margin-top:8px;
   background-color: #d3d3d3;
   color:black;
   cursor: pointer;
+}
+
+.aboutus{
+  line-height: 120%;
+  font-size: 13px;
+  color:black;
 }
 
 
