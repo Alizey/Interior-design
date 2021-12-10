@@ -11,11 +11,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
  
-#menubar{
+#menu-bar{
   
   width:20%;
    height: 100%;
-  /* margin-top:5px;*/
+  
    float:left;
    overflow: scroll;
    position:fixed;
@@ -30,7 +30,6 @@
 @media only screen and (max-width: 600px){
 #overlay {
   position: fixed;
-  display: none;
   width: 100%;
   height: 100%;
   top: 0;
@@ -49,11 +48,14 @@
   
   width:50%;
    height: 100%;
-  /* margin-top:5px;*/
+  
    float:left;
    overflow: scroll;
    position:fixed;
    background-color: white;
+    }
+    #menu-bar{
+      display: none;
     }
   }
   
@@ -61,6 +63,22 @@
 
 </head>
 <body>
+
+  <div id="menu-bar">  
+    <h2 classs="heading">LOGO</h2>   
+            <ul>
+               <li><a href= "#decor">Decor</a></li>
+                  
+               <li><a href="#furniture">Furniture</a></li>
+                     
+               <li><a href="#lighting">Lighting</a></li>
+               <li ><a href="#pillows">Pillows</a></li>
+               <li<a href="#rugs">Rugs</a></li>
+               <li><a href="#Contact">Contact</a></li>
+               <li><a href="#Newsletter">NewsLetter</a></li>
+               <li><a href="#Subscribe">Subscribe</a></li>
+              </ul>
+              </div>
 
 <div id="overlay" onclick="off()">
   <div id="menubar">  
