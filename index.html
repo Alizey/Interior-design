@@ -19,7 +19,7 @@
     
     <div id="overlay" >
      
-      <div id="menubar">  
+      <div class="menubar">  
        <h2 class="heading">LOGO</h2>   
        <i class="fa fa-close" id="close"  onclick="off()"></i>
             <ul>
@@ -177,6 +177,11 @@
     function off() {
       document.getElementById("overlay").style.display = "none";
     }
+
+    window.onresize = function(event)
+{
+document.location.reload(true);
+}
     </script>
 </body>
 <html>
