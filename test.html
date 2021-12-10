@@ -1,106 +1,99 @@
 <!DOCTYPE html>
+<html>
 <head>
-<title>Interior </title>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Interior Designs</title>
+      <link href="interior.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-     .menubar{
-   display:block;
-   width:20%;
+ 
+#menubar{
+  
+  width:20%;
    height: 100%;
   /* margin-top:5px;*/
    float:left;
    overflow: scroll;
    position:fixed;
-   
-   
-   }
+   background-color: white;
+    }
+ .menu-icon{
+    display:none;
+  }
+  
 
-   ul {
-  list-style-type: none;
+    
+@media only screen and (max-width: 600px){
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
 }
-li a {
-  display: block;
-  /*color: #000;*/
- padding: 8px 16px;
-  text-decoration: none;
-  font-family: cursive;
-  font-size: 18px;
-  color:black;
- }
-
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #d3d3d3;
-  color: black;
-}
-
-.heading{
-  padding:30px;
-  padding-left: 50px;
-  margin-bottom:20px;
-  font-family: cursive;
-  margin-top: 1px;
-  display: inline-block;
+.menu-icon{
+  display:inline;
 }
 
-   /*@media only screen and (max-width: 700px){
-   .menubar{
-     width:100%;
-     height: auto;
-     position:relative;
-   }
-   .menubar a{
-     float:left;
-     
-   }
-}
-
-
-@media screen and (max-width: 400px) {
-  .menubar a {
-    text-align: center;
-    float: none;
-  }*/
- 
-
-
+#menubar{
+  
+  width:50%;
+   height: 100%;
+  /* margin-top:5px;*/
+   float:left;
+   overflow: scroll;
+   position:fixed;
+   background-color: white;
+    }
+  }
+  
 </style>
+
+</head>
 <body>
-  <div class="menubar">
-    <h2 class="heading">LOGO</h2>
-    <i class="fa fa-bars"></i>
+
+<div id="overlay" onclick="off()">
+  <div id="menubar">  
+  <h2 class="heading">LOGO</h2>   
+          <ul>
+             <li class="webresponsive"><a href= "#decor">Decor</a></li>
+                
+             <li class="webresponsive"><a href="#furniture">Furniture</a></li>
+                   
+             <li class="webresponsive"><a href="#lighting">Lighting</a></li>
+             <li class="webresponsive" ><a href="#pillows">Pillows</a></li>
+             <li class="webresponsive"><a href="#rugs">Rugs</a></li>
+             <li class="webresponsive"><a href="#Contact">Contact</a></li>
+             <li class="webresponsive"><a href="#Newsletter">NewsLetter</a></li>
+             <li class="webresponsive"><a href="#Subscribe">Subscribe</a></li>
+            </ul>
+            </div>
+</div>
+
+<div>
   
-    <ul>
-       <li><a href= "#decor>Decor</a></li>
-          
-       <li><a href="#furniture">Furniture</a></li>
-             
-       <li><a href="#lighting">Lighting</a></li>
-       <li><a href="#pillows">Pillows</a></li>
-       <li><a href="#rugs">Rugs</a></li>
+  <i class="fa fa-bars menu-icon "onclick="on()" ></i>
+</div>
 
-       
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
 
-
-       <li><a href="#Contact">Contact</a></li>
-       <li><a href="#Newsletter">NewsLetter</a></li>
-       <li><a href="#Subscribe">Subscribe</a></li>
-
-           
-             
-      </ul>
-</div> 
-  
-    
-
-  
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
    
-    
-
-
 </body>
+</html> 

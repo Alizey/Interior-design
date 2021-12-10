@@ -41,7 +41,7 @@ li a:hover {
   float: right;
   margin-left: 30px;
  }
-.menubar{
+#menubar{
   
    width:20%;
    height: 100%;
@@ -141,36 +141,7 @@ img {
  
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 90%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
 
-}
-
-.section:hover .overlay {
-  opacity: 0.7;
-  cursor: pointer;
-  
-}
-.text {
-  position: absolute;
-  top: 35%;
-  left: 20%;
- text-align: center;
- font-size:25px;
- background-color:	#FFD700;
- padding:15px 20px;
- font-weight: bold;
-
-  }
 
 
 .size{
@@ -250,22 +221,20 @@ margin-top:8px;
 .store{
   width:30%;
 } 
+.black-background{
+  display: none;
+}
 
 
 
 
-@media only screen and (max-width: 700px){
+
+
+
+
+@media only screen and (max-width: 600px){
   
-   .menubar {
-            width: 100%;
-            height: auto;
-            position: relative;
-            overflow: auto;
-          }
-          .menubar a {float: left;}
-        
-        
-    .webresponsive{
+.menubar{
       position: absolute;
       bottom: 0;
       left: 0;
@@ -276,27 +245,68 @@ margin-top:8px;
       height: 100%;
       transition: .5s ease;
     }
-    .webresponsive:hover{
-     
+    .menu-icon:hover .menu-bar{
+       padding:10px;
     }
 
     .menu-icon{
-      display:inline-block;
-      margin-left:300px;
+     
+      margin-left:200px;
     }
     .black-background{
       background-color: black;
       color:white;
-
+      display:inline-block;
+      width: 100%;
       
-    
+      
     }
+    .first-section{
+      width:100%;
+    }
+
+    .menu-icon:hover{
+         background-color: #d3d3d3;
+         color:black;
+         cursor: pointer;
+         padding:5px;
+    }
+
+    #overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+      cursor: pointer;
+    }
+    .menu-icon{
+      display:inline;
+    }
+    
+    #menubar{
+      
+      width:50%;
+       height: 100%;
+      /* margin-top:5px;*/
+       float:left;
+       overflow: scroll;
+       position:fixed;
+       background-color: white;
+        }
+      }
+    
   }
 
   
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
   .menubar a {
     text-align: center;
     float: none;
   }
-}
+}*/
