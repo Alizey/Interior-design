@@ -178,10 +178,11 @@
       document.getElementById("overlay").style.display = "none";
     }
 
-    window.onresize = function(event)
-{
-document.location.reload(true);
-}
+    window.addEventListener('resize' , function (){
+       "use strict";
+       window.location.reload();
+    });
+
     </script>
 </body>
 <html>
