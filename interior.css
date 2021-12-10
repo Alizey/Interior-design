@@ -221,15 +221,13 @@ margin-top:8px;
 .store{
   width:30%;
 } 
-.black-background{
+.black-background {
   display: none;
 }
-
-
-
-
-
-
+#close{
+  display:none;
+  padding-left:20px;
+}
 
 
 @media only screen and (max-width: 600px){
@@ -251,7 +249,7 @@ margin-top:8px;
 
     .menu-icon{
      
-      margin-left:200px;
+      margin-left:150px;
     }
     .black-background{
       background-color: black;
@@ -299,6 +297,10 @@ margin-top:8px;
        position:fixed;
        background-color: white;
         }
+      
+
+      #close{
+        display:inline-block;
       }
     
   }
