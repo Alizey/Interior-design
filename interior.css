@@ -106,19 +106,13 @@ img {
   
   
 }
-
 .img4{
   flex:0.6666;
-  
-
 }
-
 .image-container{
   width:93%;
   display:flex;
   flex-wrap: wrap;
-
-
   vertical-align: middle;
   /*padding:20px;*/
   /*margin-left: 30px;*/
@@ -128,13 +122,7 @@ img {
   margin-left:30px;
   font-weight: bold;
   font-size: 20px;
-  
- 
-}
-
-
-
-
+  }
 .size{
 	color: black;
     font-size: 1em;
@@ -258,6 +246,7 @@ margin-top:8px;
         }
         .first-section{
           width:100%;
+        height: auto;
         }
         .menu-icon:hover {
           
@@ -282,6 +271,20 @@ margin-top:8px;
             display:inline-block;
           }
 
+         .shop{
+
+         }
+
+         .text-over-image{
+          position: absolute;
+          left:80px;
+          top:5px;
+          font-family: Cursive; 
+          font-size: 15px;
+           }
+          .collection{
+            display: none;
+          }
         
       }
     
