@@ -78,8 +78,6 @@ li a:hover {
   font-size:18px;
 }
 
-
-
 .cart{
   padding-right: 20px;
 }
@@ -237,7 +235,7 @@ margin-top:8px;
     
         .menu-icon{
           display:inline;
-          margin-left:190px;
+          margin-left:185px;
         }
         .black-background{
           background-color: black;
@@ -301,10 +299,9 @@ margin-top:8px;
 
            .contact{
             width:20%;
-         
             margin-top: 35px;
-           
             font-size: 15px;
+           
           }
       }
     
@@ -336,6 +333,8 @@ margin-top:8px;
             .first-section{
               width:100%;
             height: auto;
+            margin-left: auto;
+            margin-right: auto;
             }
             .menu-icon:hover {
               
@@ -386,9 +385,9 @@ margin-top:8px;
                }
                .contact{
                 width:30%;
-             
-                margin-top: 35px;
                
+                margin-top: 35px;
+                height:auto;
                 font-size: 15px;
               }
               
