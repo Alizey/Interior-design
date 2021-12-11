@@ -205,7 +205,7 @@ margin-top:8px;
   
 }
 
-   #menubar{
+   #menu-bar{
   
     width:20%;
      height: 100%;
@@ -215,6 +215,15 @@ margin-top:8px;
      position:fixed;
      background-color: white;
       }
+    #menubar{
+      width:20%;
+      height: 100%;
+     
+      float:left;
+      overflow: scroll;
+      position:fixed;
+      background-color: white;
+    }
 
       .imagecontainer{
         display: none;
@@ -248,9 +257,12 @@ margin-top:8px;
         .first-section{
           width:90%;
           height: auto;
-          margin-right:auto;
-          margin-left:auto;
-        }
+         }
+
+         .section{
+           margin-left: auto;
+           margin-right:auto;
+         }
         .menu-icon:hover {
           
           padding:10px;
@@ -307,7 +319,9 @@ margin-top:8px;
     
     
       @media only screen and (max-width: 767px){
-  
+        #menu-bar{
+          display:none;
+        }
         #menubar{
               width:50%;
               height: 100%;
@@ -336,6 +350,8 @@ margin-top:8px;
             margin-left: auto;
             margin-right: auto;
             }
+
+            
             .menu-icon:hover {
               
               padding:10px;
