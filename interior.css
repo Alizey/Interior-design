@@ -114,8 +114,7 @@ img {
   display:flex;
   flex-wrap: wrap;
   vertical-align: middle;
-  /*padding:20px;*/
-  /*margin-left: 30px;*/
+ 
 }
 .section{
   position:relative;
@@ -219,6 +218,10 @@ margin-top:8px;
      background-color: white;
       }
 
+      .imagecontainer{
+        display: none;
+      }
+
 
   @media only screen and (max-width: 480px){
   
@@ -285,6 +288,17 @@ margin-top:8px;
           .collection{
             display: none;
           }
+
+          .image-container{
+            display:none;
+          }
+          .imagecontainer{
+            width:97%;
+            display:flex;
+            flex-wrap: wrap;
+            vertical-align: middle;
+           }
+          
         
       }
     
