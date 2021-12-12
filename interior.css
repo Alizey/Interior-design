@@ -229,6 +229,7 @@ margin-top:8px;
         display: none;
       }
 
+    
 
   @media only screen and (max-width: 480px){
     #menu-bar{
@@ -246,7 +247,7 @@ margin-top:8px;
     
         .menu-icon{
           display:inline;
-          margin-left:170px;
+          
         }
         .black-background{
           background-color: black;
@@ -259,6 +260,8 @@ margin-top:8px;
         .first-section{
           width:90%;
           height: auto;
+            margin-left: auto;
+            margin-right: auto;
          }
 
          .section{
