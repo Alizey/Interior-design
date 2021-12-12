@@ -229,6 +229,7 @@ margin-top:8px;
         display: none;
       }
 
+
     
 
   @media only screen and (max-width: 480px){
@@ -258,16 +259,17 @@ margin-top:8px;
           
         }
         .first-section{
-          width:90%;
-          height: auto;
-            margin-left: auto;
-            margin-right: auto;
-         }
-
-         .section{
-           margin-left: auto;
-           margin-right:auto;
-         }
+          width:100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+      
+        .section{
+          margin-left:12px;
+          width:100%;
+          
+        }
         .menu-icon:hover {
           
           padding:10px;
@@ -308,10 +310,11 @@ margin-top:8px;
             display:none;
           }
           .imagecontainer{
-            width:97%;
+            width:90%;
             display:flex;
             flex-wrap: wrap;
             vertical-align: middle;
+            
            }
 
            .contact{
@@ -341,19 +344,25 @@ margin-top:8px;
               display:inline;
               margin-left:250px;
             }
+            
             .black-background{
               background-color: black;
               color:white;
               display:inline-block;
               width: 100%;
-              
-              
             }
+            
             .first-section{
               width:100%;
             height: auto;
             margin-left: auto;
             margin-right: auto;
+            }
+          
+            .section{
+              margin-left:12px;
+              width:100%;
+              
             }
 
             
@@ -380,10 +389,6 @@ margin-top:8px;
                 display:inline-block;
               }
     
-             .shop{
-    
-             }
-    
              .text-over-image{
               position: absolute;
               left:80px;
@@ -399,10 +404,13 @@ margin-top:8px;
                 display:none;
               }
               .imagecontainer{
-                width:97%;
+                width:90%;
                 display:flex;
                 flex-wrap: wrap;
                 vertical-align: middle;
+                padding-left:18px;
+                padding-right: 5px;
+               
                }
                .contact{
                 width:30%;
