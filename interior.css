@@ -247,7 +247,10 @@ margin-top:8px;
                                                                           
     
         .menu-icon{
-          display:inline;
+          background-color: black;
+          color: white;
+          padding:10px 10px;
+          margin-left:200px;
           
         }
         .black-background{
@@ -272,7 +275,7 @@ margin-top:8px;
         }
         .menu-icon:hover {
           
-          padding:10px;
+          cursor: pointer;
           background-color: #d3d3d3;
           color:black;
         }
@@ -340,17 +343,21 @@ margin-top:8px;
             }
                                                                               
         
-            .menu-icon{
-              display:inline;
-              margin-left:250px;
-            }
-            
             .black-background{
               background-color: black;
               color:white;
               display:inline-block;
               width: 100%;
+              
             }
+            .menu-icon{
+              background-color: black;
+             color: white;
+             padding:10px 10px;
+             margin-left:200px;
+   
+            }
+            
             
             .first-section{
               width:100%;
@@ -367,10 +374,11 @@ margin-top:8px;
 
             
             .menu-icon:hover {
+                 background-color: #d3d3d3;
+                 color:black;
+                 cursor: pointer;
               
-              padding:10px;
-              background-color: #d3d3d3;
-              color:black;
+             
             }
       #overlay {
               position: fixed;
@@ -383,7 +391,7 @@ margin-top:8px;
               bottom: 0;
               background-color: rgba(0,0,0,0.5);
               z-index: 2;
-              cursor: pointer;
+              
             }
          #close{
                 display:inline-block;
